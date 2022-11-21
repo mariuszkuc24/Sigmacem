@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="description" content="Opis strony" />
+    <meta name="keywords" content="słowa kluczowe oddzielone przecinkiem" />
+    <title>Castorama - Przewodnik Konsultanta</title>
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="stylesheet" href="skuchecker.css" />
+</head>
+
+<body>
+    <header class="main__header">
+        <nav class="navbar">
+            <a href="../index.html">
+                <div class="navbar__brand">
+                    <img src="../assets/logo-light-2021.png" alt="SigmaCem" />
+                </div>
+            </a>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="sku-checker-container">
+            <div class="sku-checker-header">
+                <h2>SKU CHECKER</h2>
+            </div>
+
+            <div class="sku-checker-input-panel">
+                <h4>Podaj numer SKU by sprawdzić z którego działu, lub sektora pochodzi produkt: </h4>
+                <label for="inp" class="inp">
+                    <input type="text" id="inp" placeholder="&nbsp;">
+                    <span class="label">Numer SKU</span>
+                    <span class="focus-bg"></span>
+                </label>
+                <div id="btn-submit">Sprawdź</div>
+            </div>
+            <div class="sku-checker-output-panel">
+                <div class="sku-checker-header--small">
+                    <h3>Działy i sektory:</h3>
+                </div>
+                <div class="sku-checker-output-panel-content">
+                    <span>Numer SKU: <em id="log-number"></em></span>
+                    <div id="list-info">
+                        <b>Dział:</b>
+                        <ul id="list-section">
+                        </ul>
+                        <b>Sektor/Sektory:</b>
+                        <ul>
+                            <li>
+                                <ul id="list-sectors">
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="./skuchecker.js"></script>
+</body>
+
+</html>

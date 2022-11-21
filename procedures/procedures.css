@@ -1,0 +1,158 @@
+:root {
+  --gold: #ffdd00;
+  --red: #d71921;
+  --light_blue: #0078d7;
+  --dark_blue: #006abe;
+  --white: #ffffff;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+td {
+  min-width: 250px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+}
+
+.navbar__heading h1{
+  margin: 0 16px;
+  font-size: 40px;
+  color: white;
+}
+
+.aside-nav {
+  position: fixed;
+  top: 68px;
+  left: 0;
+  width: 240px;
+  height: 100vh;
+  background-color: var(--light_blue);
+}
+.aside-nav-container {
+  position: relative;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 32px;
+  overflow-y: scroll;
+  list-style: none;
+  user-select: none;
+
+}
+
+.dropdown {
+  display: block;
+  position: relative;
+  padding: 16px;
+  border-left: solid 3px var(--dark_blue);
+  border-bottom: 1px solid white;
+  background: var(--dark_blue);
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+}
+
+.aside-nav li {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown:hover,
+.dropdown:active {
+  color: #ffdd00;
+  border-left-color: #ffdd00;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+  transition: transform ease-in 0.5s;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: var(--light_blue);
+}
+
+.dropdown-content ul li {
+  padding: 8px 0;
+}
+
+.dropdown-content ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-content ul li a:hover,
+.dropdown-content ul li a:active {
+  color: #ffdc00;
+}
+
+.show {
+  display: block;
+}
+
+.rotated {
+  transform: rotate(-180deg);
+}
+
+/* MAIN*/
+
+.main-container {
+  margin: 90px 20px 0 260px;
+  scroll-padding-top: 5rem;
+}
+
+.category-section h1 {
+  color: var(--light_blue);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* TASK */
+
+.task {
+  
+  border: 3px solid var(--light_blue);
+  margin: 36px auto;
+}
+
+.task__header {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding-left: 16px;
+  background: var(--light_blue);
+  color: #ffd700;
+}
+
+.task__description {
+  padding: 16px;
+}
+
+.task__description-header h3 {
+  color: var(--light_blue);
+}
+
+.task__description-more {
+  padding-left: 16px;
+}

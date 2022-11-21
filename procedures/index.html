@@ -1,0 +1,2089 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="description" content="Opis strony" />
+  <meta name="keywords" content="słowa kluczowe oddzielone przecinkiem" />
+  <title>Castorama - Przewodnik Konsultanta</title>
+  <link rel="stylesheet" href="../shared.css" />
+  <link rel="stylesheet" href="procedures.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+  <header class="main__header">
+    <nav class="navbar">
+      <a href="../index.html">
+        <div class="navbar__brand">
+          <img src="../assets/logo-light-2021.png" alt="SigmaCem" />
+        </div>
+      </a>
+      <div class="navbar__heading">
+        <h1>Przewodnik Konsultanta</h1>
+      </div>
+    </nav>
+  </header>
+  <aside>
+    <div class="aside-nav">
+      <nav>
+        <ul class="aside-nav-container">
+          <!--Asortyment-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Asortyment <span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+
+                <li><a href="#asortyment_astesty_certyfikaty_karty_produktu">Atesty/Certyfikaty</a></li>
+                <li><a href="#asortyment_cesja">Cesja</a></li>
+                <li><a href="#asortyment_dodatkowe-informacje-o-produktach">Dodatkowe informacje o produktach</a></li>
+                <li><a href="#asortyment_dostepnosc">Dostępność Produktu</a></li>
+                <li>
+                  <a href="#asortyment_pomoc-w-wyborze">Pomoc w wyborze asortymentu dla klienta przez konsultanta</a>
+                </li>
+                <li><a href="#asortyment_zamowienie_od_producenta">Zamówienie asortymentu od producenta</a></li>
+              </ul>
+            </div>
+          </li>
+          <!--Brak kontaktu Chat-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Brak Kontaktu (CHAT) <span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#brak-kontaktu">Brak Kontaktu</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Inne-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Dostawcy<span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#dostawcy">Dostawcy</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Głuchy telefon-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Głuchy telefon <span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#gluchy-telefon">Głuchy telefon</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Inne-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Inne<span class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#inne_kontakt_do_sklepu">Kontakt ze sklepem</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Reklamacje-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Reklamacje<span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#reklamacje_zgloszenie_reklamacji">Zgłoszenie reklamacji</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Sklepy-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Sklepy<span class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#sklepy_dzialy-i-sektory">Działy i sektory</a>
+                </li>
+                <li>
+                  <a href="#sklepy_lista-obslugiwanych-sklepow">Lista obsługiwanych sklepów</a>
+                </li>
+                <li>
+                  <a href="#sklepy_kontakt-do-sklepu">Kontakt do sklepu</a>
+                </li>
+                <li><a href="#sklepy_roznice">SMART & EXPRESS różnice</a></li>
+                <li><a href="#sklepy_zasady-kontaktu">Zasady kontaktu ze sklepem</a></li>
+              </ul>
+            </div>
+          </li>
+          <!--Transport-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Transport <span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#transport-limity-wagowe">Limity wagowe</a></li>
+                <li>
+                  <a href="#zamowienie-transportu">Zamówienie transportu</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Usługi-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Usługi <span class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#uslugi_anulowanie-sesji-projektowej">Anulowanie sesji projektowej</a>
+                </li>
+                <li>
+                  <a href="#uslugi_ciecie-drewna">Cięcie drewna</a>
+                </li>
+                <li>
+                  <a href="#uslugi_koszt-i-czas-realizacji-uslugi">Koszt i czas realizacji usługi</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Zakupy Stacjonarne-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Zakupy stacjonarne <span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#zakupy_stacjonarne-dodanie-produktu-do-zamowienia">Dodanie produktu do zamówienia</a>
+                </li>
+                <li>
+                  <a href="#zakupy_stacjonarne-status-zamowienia">Status zamówienia</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Zamóienia iternetowe-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Zamówienia internetowe<span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#zamowienie_internetowe_anulowanie-zamowienia-proces-sklepu">Anulowanie zamówienia (proces
+                    sklepu)</a>
+                </li>
+                <li>
+                  <a href="#zamowienie_internetowe_dostawa-informacje-ogolne">Dostawa informacje ogólne</a>
+                </li>
+                <li>
+                  <a href="#zamowienie_internetowe_status-zamowienia">Status Zamówienia</a>
+                </li>
+                <li>
+                  <a href="#zamowienie_internetowe_zamow_i_odbierz">Zamów i Odbierz (Click&Collect)
+                  </a>
+                </li>
+                <li>
+                  <a href="#zamowienie_internetowe_zgloszenie">Zgłoszenie techniczne </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Zamówienia telefoniczne-->
+          <li class="show-nav">
+            <div class="dropdown" onClick="dropDownToggle(this)">Zamówienia telefoniczne<span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#zamowienia_telefoniczne-inne">Inne</a>
+                </li>
+                <li>
+                  <a href="#zamowienia_telefoniczne-zlozenie-zamowienia">Złożenie zamówienia</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="show-nav">
+            <!--Zobowiązania-->
+            <div class="dropdown" onClick="dropDownToggle(this)">Zobowiązania<span
+                class="material-symbols-outlined rotated">
+                expand_more
+              </span></div>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#zobowiazania_duplikat-faktury">Duplikat Faktury</a>
+                </li>
+                <li>
+                  <a href="#zobowiazania_faktury-paragony">Faktury/Paragony</a>
+                </li>
+                <li>
+                  <a href="#zobowiazania_faktura-proforma">Faktura z opóźnionym terminem płatności</a>
+                </li>
+                <li><a href="#zobowiazania_zwroty-towaru">Zwroty Towaru</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <main class="main-container">
+    <section class="category-section" id="asortyment">
+      <h1>Asortyment</h1>
+      <!--Asortyment Atesty Certyfikaty-->
+      <section class="task" id="asortyment_astesty_certyfikaty_karty_produktu">
+        <div class="task__header">
+          <h2>ASORTYMENT - Atesty/Certyfikaty</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Atesty/Certyfikaty/Karty/Produktu</td>
+                </tr>
+                <tr>
+                  <td>Priorytet:</td>
+                  <td>Niski/Bardzo Niski</td>
+                </tr>
+                <tr>
+                  <td>Osoby odpowiedzialne e-mail:</td>
+                  <td>dzial.jakosci@castorama.pl</td>
+                </tr>
+                <tr>
+                  <td>Kod SKU:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+                <tr>
+                  <td>Adres e-mail Klienta:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Krok 1</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Pobieramy od klienta adres email pod który wyślemy mu plik, oraz numer SKU którego dotyczy zapytanie,
+              wybieramy priorytet, oraz klikamy zapisz i otwórz.
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Krok 2</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Otwieramy task, zaznaczamy osobę odpowiedzialną: dzial.jakosci@castorama.pl ,oraz w treści wiadomości
+              piszemy:
+              </br>
+              @dzial.jakosci@castorama.pl - Dzień dobry, proszę o przesłanie Certfikatu/Karty Produktu/Deklaracji
+              Właściwości produktu: Nazwa KOD SKU EAN. Pozdrawiam
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Krok 3</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Po otrzymaniu załącznika z działu jakości, oznaczamy lidera po znaku @ w osobach odpowiedzialnych:
+              </br>
+              @ - Dzień dobry, w załączniku przesyłam Certyfikat/Kartę produktu/Deklarację właściwości produktu Nazwa: ,
+              Kod SKU:, Kod EAN: pozdrawiam serdecznie.
+            </p>
+            </br>
+            <b>Zamykamy taska.</b>
+          </div>
+        </section>
+      </section>
+      <section class="task" id="asortyment_cesja">
+        <div class="task__header">
+          <h2>ASORTYMENT - Cesja produktu</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Cesja</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Wpisujemy jeśli został podany</td>
+                </tr>
+                <tr>
+                  <td>Kod SKU:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Czym jest cesja?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Polega on na tym że przy niedostępności produktu, w sklepie, w
+              którym Klient chcę zrealizować zakupy na jego specjalne życzenie
+              sprowadzany jest ze sklepu, w którym jest dostępny.
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Jak wygląda proces?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Decyzję w temacie cesji pomiędzy sklepami podejmuje Kierownik
+              działu, na którym znajduje się produkt. W tym celu należy
+              skontaktować się ze sklepem, do którego chciałby Pan/ Pani
+              sprowadzić produkt oraz w przypadku pozytywnej odpowiedzi
+              wpłacić zaliczkę w wysokości 40% wartości produktu.
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>W przypadku których produktów cesja nie jest możliwa?</h3>
+          </div>
+          <div class="task__description-header">
+            <h3>Obsługa na infolinii</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Klient jest zainteresowany cesją, CC w pierwszej kolejności powinno zaproponować złożenie zamówienia
+              online a następnie zakup telefoniczny.
+            </p>
+            <ol>
+              <li>Jeśli Klient jest zainteresowany złożeniem zamówienie online, CC powinno, jeżeli to konieczne przejść
+                z nim w miarę możliwości proces zakupu. </li>
+              <li>Jeśli Klient zainteresowany złożeniem zamówienia telefonicznego, CC składa takie zamówienie dla
+                Klienta.</li>
+              <li>Jeśli Klient nie jest zainteresowany propozycjami: CC powinno przekazać Klientowi, że w takim razie
+                powinien udać się do sklepu, w celu złożenia zapotrzebowania na cesję. CC przekazuje również taką
+                informację do sklepu bardzo <b>Ważne: tylko na dział (lub pod adres, który wskazany jest przez sklep), z
+                  którego Klient był zainteresowany cesją.</b> </li>
+            </ol>
+          </div>
+        </section>
+      </section>
+      <!--Dodatkowe informacje o produktach-->
+      <section class="task" id="asortyment_dodatkowe-informacje-o-produktach">
+        <div class="task__header">
+          <h2>Asortyment - Dodatkowe informacje o produktach</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Dodatkowe informacje o produktach</td>
+                </tr>
+                <tr>
+                  <td>Kod SKU:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>
+              Jak wygląda proces?
+            </h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              W przypadku, w którym Klient zaintersowany jest dodatkowymi informacjami związanymi z produktem.
+              Konsultant w pierwszej kolejności weryfikuje infromacje w specyfikacji na stronie www, kolejno weryfikuje
+              dostępne materiały i specyfikacje pod adresem:
+              <a href="https://kfplc.sharepoint.com/sites/PLCAJakosc/SitePages/Dokumentacja-jako%C5%9Bciowa.aspx"
+                style="color: red">link</a> Jeśli po
+              weryfikacji wszytkich dostenych materiałów consultant nie ma możliwości udzielnia odpowiedzi Klientowi
+              należy go zaprosić do bezpośredniej wizyty w skelpie lub w łatwiejszych przypadkach zadzwonić do sklepu w
+              imieniu Klienta. <b style="color: red">UWAGA: nie odsyłamy Klientów do innych sklepów podając do nich
+                numer telefonu.</b>
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Drzwi prawe czy lewe – jakie to ma znaczenie?</h3>
+          </div>
+          <div class="task__description-more">
+            <a target="_blank" style="color: red"
+              href="https://www.castorama.pl/drzwi-prawe-czy-lewe-jakie-to-ma-znaczenie-ins-88240.html">Dowiedz się
+              więcej!</a>
+          </div>
+        </section>
+      </section>
+
+      <section class="task" id="asortyment_dostepnosc">
+        <div class="task__header">
+          <h2>Dostępność Produktu</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Dostępność Produktu</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+                <tr>
+                  <td>SKU:</td>
+                  <td>Wpisuemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Jak sprawdzić dostępność?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Pobieramy Kod Produktu (Ewentualnie nazwę ), prosimy o podanie
+              sklepu z którego klient chcę dokonać zamówienie. Następnie w
+              lewym górnym rogu wybieramy adres sklepu, kod SKU/nazwe produktu
+              wpisujemy w wyszukiwarkę na stronie po wejściu w kartę produktu
+              widzimy dostępność. W przypadku, w którym potrzebny Klientowi
+              towar jest na stanie sklepu w małej ilości, należy poprosić
+              Klienta, aby udał się bezpośrednio do sklepu.. Jeśli jest brak,
+              możemy sprawdzić dostępność w inny sklepach w tym samym panelu.
+              <b>Nie dzwonimy do sklepu z zapytaniem o dostępność!</b>
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Jak wygląda proces?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Decyzję w temacie cesji pomiędzy sklepami podejmuje Kierownik
+              działu, na którym znajduje się produkt. W tym celu należy
+              skontaktować się ze sklepem, do którego chciałby Pan/ Pani
+              sprowadzić produkt oraz w przypadku pozytywnej odpowiedzi
+              wpłacić zaliczkę w wysokości 40% wartości produktu.
+            </p>
+          </div>
+        </section>
+      </section>
+      <section class="task" id="asortyment_pomoc-w-wyborze">
+        <div class="task__header">
+          <h2>Pomoc w wyborze asortymentu dla klienta przez konsultanta</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Pomoc w wyborze asortymentu dla klienta przez konsultanta</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Proces:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Wyszukujemy produkt, oraz informujemy klienta.</p>
+          </div>
+        </section>
+      </section>
+      <section class="task" id="asortyment_zamowienie_od_producenta">
+        <div class="task__header">
+          <h2>Asortyment - Zamówienie od producenta</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Asortyment</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>?</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Informacja:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              sklepy Castorama nie mają możliwości składania zamówień na produkty wycofane w sklepach bezpośrednio u
+              producenta. Jeśli zygosis się do Was Klient, który chciałby zamówić produkt niedostępny w sklepie (bo
+              został wycofany ze sprzedaży), trzeba przekazać mu informację, że nie ma takiej możliwości. Jeśli Klient
+              zna nazwę producenta asortymentu, który chce kupić w ramach dobrych relacji szukamy dla Klienta kontaktu
+              do tego producenta (numer telefonu i/lub mail).
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!--Brak kontaktu-->
+    <section class="category-section" id="brak-kontaktu_">
+      <h1>Brak kontaktu (CHAT)</h1>
+      <section class="task" id="brak-kontaktu">
+        <div class="task__header">
+          <h2>Brak kontaktu (CHAT)</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Brak Kontaktu</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Brak Kontaktu</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Brak Kontaktu</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Opis:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Kodujemy w ten sposób CHATY w których Klient nie zadał pytania w ciągu 3minut.
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!--Dostawcy-->
+    <section class="category-section" id="dostawcy_">
+      <h1>Dostawcy</h1>
+      <section class="task" id="dostawcy">
+        <div class="task__header">
+          <h2>Dostawcy</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Dostawcy</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Dostawcy</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>
+                    <ul>
+                      <li>Opóźnienie w dostawach
+                      </li>
+                      <li>Inne</li>
+                      <li>Czas rozładunku</li>
+                      <li>Konfort dostawców</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Opis:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Używamy tej kategorii w przypadku, gdy dzwoni np. kierowca firmy, która dostarcza produkty do Castoramy
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!--Głuchy telefon-->
+    <section class="category-section" id="gluchy-telefon_">
+      <h1>Głuchy Telefon</h1>
+      <section class="task" id="gluchy-telefon">
+        <div class="task__header">
+          <h2>Głuchy Telefon</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Głuchy Telefon</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Głuchy Telefon</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Głuchy Telefon</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Opis:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Kodujemy w ten sposób połączenia w których nikogo nie było słychać, i od razu zakończyło się
+              połączneie.
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="category-section" id="reklamacje">
+      <h1>Reklamacje</h1>
+      <section class="task" id="reklamacje_zgloszenie_reklamacji">
+        <div class="task__header">
+          <h2>Reklamacje - Zgłoszenie reklamacji</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kodowanie</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Kategoria główna: </p>
+            <p>Kategoria szczegółowa: </p>
+            <p>Sklep:</p>
+            <p>Kod SKU:</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Wiadomość do klienta +protokół</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Polega on na tym że przy niedostępności produktu, w sklepie, w
+              którym Klient chcę zrealizować zakupy na jego specjalne życzenie
+              sprowadzany jest ze sklepu, w którym jest dostępny.
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>W przypadku których produktów cesja nie jest możliwa?</h3>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="category-section" id="sklepy">
+      <h1>Sklepy</h1>
+      <section class="task" id="sklepy_obslugujace-inne-kraje">
+        <div class="task__header">
+          <h2>Sklepy obsługujące inne kraje</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Który sklep obsługuje który kraj?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Niemcy: Szczecin Południowa</p>
+          </div>
+        </section>
+      </section>
+      <section class="task" id="sklepy_dzialy-i-sektory">
+        <div class="task__header">
+          <h2>Działy i Sektory</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Jak sprawdzić z którego sektora jest dany produkt?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Pierwsza cyfra numeru produktu SKU(na stronie kod produktu jest
+              zaraz pod nazwą)
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Spis działów oraz sektorów:</h3>
+          </div>
+          <div class="task__description-more">
+            <ol>
+              <li>
+                Metalowy
+                <ul>
+                  <li>Techniczny</li>
+                  <li>Remontujesz</li>
+                </ul>
+              </li>
+              <li>
+                Narzędzia
+                <ul>
+                  <li>Techniczny</li>
+                  <li>Remontujesz</li>
+                </ul>
+              </li>
+              <li>
+                Drewno
+                <ul>
+                  <li>Budujesz</li>
+                </ul>
+              </li>
+              <li>
+                Pokrycia podłogowe
+                <ul>
+                  <li>Urządzasz</li>
+                </ul>
+              </li>
+              <li>
+                Sanitarny
+                <ul>
+                  <li>Techniczny</li>
+                  <li>Remontujesz</li>
+                  <li>Urządzasz</li>
+                </ul>
+              </li>
+              <li>
+                Ogród
+                <ul>
+                  <li>Ogród</li>
+                </ul>
+              </li>
+              <li>
+                Dekorujesz
+                <ul>
+                  <li>Dekoracje</li>
+                </ul>
+              </li>
+              <li>
+                Elektryczny
+                <ul>
+                  <li>Metalowy</li>
+                  <li>Remontujesz</li>
+                </ul>
+              </li>
+              <li>
+                Budowlany
+                <ul>
+                  <li>Budujesz</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </section>
+      </section>
+      <section class="task" id="sklepy_lista-obslugiwanych-sklepow">
+        <div class="task__header">
+          <h2>Lista obłsugiwanych sklepów</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Mława</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Mława - Castorama Smart Al. Świętego Wojciecha 17</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Ostrów Wielkopolski</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Ostrów Wielkopolski - Castorama Smart ul. Ks. Prałata Czesława
+              Majorka 2
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Warszawa</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Warszawa Grochowska ul. Grochowska 21</p>
+            <p>Warszawa Okęcie Al. Krakowska 75</p>
+            <p>Warszawa Targówek ul. Głębocka 15a</p>
+            <p>Warszawa Ursus Express ul. Herbu Oksza 24</p>
+            <p>Warszawa Wola Park ul. Górczewska 124</p>
+            <p>Warszawa Włochy ul. Popularna 71</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Wrocław</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Wrocław Bielany Wrocławskie ul. Czekoladowa 3</p>
+            <p>Wrocław Graniczna ul. Graniczna 2a</p>
+            <p>Wrocław Korona ul. B. Krzywoustego 126a</p>
+            <p>Wrocław Magnolia ul. Legnicka 58</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Świnoujście</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Świnoujście - Castorama Smart ul. Wojska Polskiego 96</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="task" id="sklepy_kontakt-do-sklepu">
+        <div class="task__header">
+          <h2>Kontakt do sklepu</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kodowanie</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Kategoria główna: Inne</p>
+            <p>Kategoria szczegółowa: Kontakt do sklepu ( mail, telefon )</p>
+            <p>Sklep: Wpisujemy jeśli klient pytał o określony sklep</p>
+          </div>
+          <div class="task__description-header">
+            <h3>
+              Do których sklepów możemy podać dane kontaktowe do sklepu:
+            </h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Wszystkich oprócz:
+              <b>Mława, Ostrów Wielkopolski, Warszawa, Wrocław, Świnoujście</b>
+              w tym przypadku jedyny kontakt następuję poprzez infolinie, oraz
+              bok@castorama.pl
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Gdzie znaleźć dane kontaktowe?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Dane kontaktowe ( oraz godziny otwarcia sklepu ) możemy znaleźć
+              na stronie castorama:
+            </p>
+            <a target="_blank" style="color: red" href="https://www.castorama.pl/informacje/sklepy">SPIS SKLEPÓW</a>
+            <p>Oraz w pliku z aktualnymi zestawieniami kontaktowymi:</p>
+            <a target="_blank" style="color: red"
+              href="https://intelevospzoo-my.sharepoint.com/:x:/r/personal/jaroslaw_mazurek_sigmacem_com/_layouts/15/Doc.aspx?sourcedoc=%7B3ED3B6F1-E6AD-47C3-9BBA-12B296E0CF42%7D&file=Aktualne_Zestawienie_Kontaktowe_Castorama%2027.06.2022.xlsx&wdOrigin=OFFICECOM-WEB.MAIN.SEARCH&ct=1665745087391&action=default&mobileredirect=true&cid=42235211-6328-4f57-88c5-7120167f1e75">Plik
+              z zestawieniem kontaktowym</a>
+          </div>
+        </section>
+      </section>
+      <section class="task" id="sklepy_roznice">
+        <div class="task__header">
+          <h2>SMART & EXPRESS czym się różnią?</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>SMART & EXPRESS:</h3>
+          </div>
+          <div class="task__description-more">
+            <p><b>Czas na przygotowanie zamówienia:</b> 5 dni</p>
+          </div>
+        </section>
+      </section>
+      <!--Status zamówienia-->
+      <section class="task" id="sklepy_zasady-kontaktu">
+        <div class="task__header">
+          <h2>Sklepy - zasady kontaktu</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Hybryda</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Ogólne zasady kontaktu:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              W przypadku, w którym będziesz potrzebował/a konsultacji ze sklepem (czyli przydarzy Ci się kategoria
+              zwana hybrydą) skontaktujesz się z jednym z wprowadzonych do Manago numerów.
+            </p>
+            <ol>
+              <li>SOK (Sektor Obsługi Klienta)</li>
+              <li>KD (kierownik Dyżurny)</li>
+              <li>Logistyka</li>
+            </ol>
+            <p>
+              W pliku, który znajduje się na teams (lub poniżej) znajdziesz kategorie, które przypisane są do
+              poszczególnych numerów i zdarzeń. Bardzo ważne! Każdy ze sklepów może mieć przypisany inny proces do
+              wskazanego numeru. Z tego powodu, proszę Was o szczególną uwagę. Jeśli nie znajdziecie jakiejś kategorii,
+              możecie podejść do Pauliny lub do Magdy, kolejno do seniora, wskażemy pod jaki numer powinniście się
+              kontaktować.
+            </p>
+            <span><a target="_blank"
+                href="https://intelevospzoo.sharepoint.com/:x:/r/sites/CastoramaCommunicationCenter/_layouts/15/Doc.aspx?sourcedoc=%7BEC54F71B-2189-49E3-977B-82E03FBE1048%7D&file=Kontakt_Warszawa_Pilot_aktualizacja24.10.xlsx&action=default&mobileredirect=true"
+                style="color: red">Warszawa (kliknij!)</a> /
+            </span>
+            <span><a target="_blank"
+                href="https://intelevospzoo.sharepoint.com/:x:/r/sites/CastoramaCommunicationCenter/_layouts/15/Doc.aspx?sourcedoc=%7B08DC2CFA-5241-425A-891C-E2423B4F881B%7D&file=Kontakt%20ze%20sklepem-%20z%20kim%20si%C4%99%20kontaktowa%C4%87-%20Wroc%C5%82aw..xlsx&action=default&mobileredirect=true"
+                style="color: red">Wrocław (kliknij!)</a></span>
+          </div>
+          <div class="task__description-header">
+            <h3>Co w przypadku gdy nie uda nam się połączyć?</h3>
+          </div>
+          <div class="task__description-more">
+            <ol>
+              <li>SOK/Logistyka - max. Dwie próby połączenia</li>
+              <li>KD - Gdy nie uda nam się połączyć pod SOK/Logistyka kierujemy zapytanie do KD. Jedna próba max.</li>
+              <li>Wiadomość mailowa - Gdy nie uda nam się połączyć do KD, piszemy maila do sklepu</li>
+            </ol>
+            <h4 style="color: red">Za każdym razem zapisuj w tasku liczbę prób, oraz informacje Udana/Nieudana</h4>
+          </div>
+
+        </section>
+      </section>
+    </section>
+    <!--Transport-->
+    <section class="category-section" id="transport">
+      <h1>Transport</h1>
+      <section class="task" id="transport-limity-wagowe">
+        <div class="task__header">
+          <h2>Limity wagowe</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Transport</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Transport</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Ogólne informacje C&C</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Kurier</h3>
+          </div>
+          <div class="task__description-more">
+            <p>300-700kg</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Firma transportowa</h3>
+          </div>
+          <div class="task__description-more">
+            <p>16metrów sześciennych do 8t</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Paleta</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Paleta ma udźwig do 1.5t</p>
+            <span>Na palecie mieści się 64 worków cementu 20kg</span>
+          </div>
+        </section>
+      </section>
+      <section class="task" id="zamowienie-transportu">
+        <div class="task__header">
+          <h2>Zamówienie Transportu</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Transport</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Transport</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Ogólne informacje C&C</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+                <tr>
+                  <td>Numer Zamówienia:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Krok 1 KLIENT</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Pobrać od klienta: adres dostawy, jeśli z wniesieniem dopytać o
+              piętro, oraz czy jest winda. Poinformować o potrzebie
+              konsultacji w celu wyliczenia kosztu za transport.
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Krok 2 SKLEP</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Poprosić o wyliczenie kosztu transportu dla zamówienia, oraz
+              dopytać o wolne terminy
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Krok 3 KLIENT</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Poinfromować klienta o koszcie, i wolnych terminach, po
+              potwierdzeniu terminu dopytać o formę płatności Gotówka/Karta
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Krok 4 SKLEP</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Poprosić o wprowadzenie usługi transportu dla zamówienia podać
+              termin oraz metodę płatności
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Krok 5 Klient</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Poinformować o rezerwacji usługi transportu, oraz poinformować o
+              potwierdzeniu na adresie email ze strony sklepu
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="category-section" id="uslugi">
+      <h1>Usługi</h1>
+      <!--Anulowanie sesji projektowej-->
+      <section class="task" id="uslugi_anulowanie-sesji-projektowej">
+        <div class="task__header">
+          <h2>
+            Anulowanie sesji projektowej
+          </h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Usługi</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Usługi</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>
+                    <ul>
+                      <li>Anulowanie sesji projektowej(projektowanie online)</li>
+                      <li>Anulowanie sesji projektowej(w sklepie z doradcą)</li>
+                      <li>Anulowanie sesji projektowej(w sklepie z projektantem)</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Co robimy w trakcie rozmowy z klientem?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Pobieramy TYP SPOTKANIA ( Projektant/Doradca ) ID spotkania,
+              adres email, imię i nazwisko, sklep data i godzina. Informujemy
+              Klienta o przekazanie anulowania do wprowadzenai do systemu.
+              Pobrane dane wpisuemy na teamsach z prośbą o anulowanie.
+            </p>
+            <b style="color: red">Zgodnie z regulaminem, opłacone sesje projektowania kuchni (Z
+              PROJEKTANTEM) anulować można najpóźniej na 24 h przed
+              rozpoczęciem spotkania.
+            </b>
+          </div>
+        </section>
+      </section>
+      <!--Cięcie drewna-->
+      <section class="task" id="uslugi_ciecie-drewna">
+        <div class="task__header">
+          <h2>
+            Usługi - Cięcia drewna
+          </h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Usługi</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Usługi</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Cięcię drewna</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Podajemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Opis usługi:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Wszystkie zakupione w naszym sklepie drewniane elementy, możesz dociąć do potrzebnych Ci rozmiarów.
+              Nasi specjaliści przytną materiał zgodnie z Twoimi wskazówkami, dzięki czemu nie będziesz musiał
+              wykonywać tego żmudnego zadania samodzielnie. W rezultacie będziesz mógł wykorzystać drewno w aranżacji
+              swojego mieszkania i zamontować je w docelowym miejscu. Oferowana usługa obejmuje docinanie nie tylko
+              elementów drewnianych, ale też drewnopochodnych np.: płyt HDF, MDF, OSB, płyt pilśniowych, laminowanych,
+              meblowych, blatów kuchennych czy płyt wiórowych.</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Obsługa Klienta:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Z ze względu na to, że usługa cięcia w niektórych sklepach, może być wyłączona a sklepom ciężko jest na
+              bieżąco komunikować z CC nie działanie tej usługi. Należy skontaktować się ze sklepem (<b>Obsługiwanych
+                przez infolinie, inne sklepy podajemy numer na dział drewna</b>) i doprecyzować,
+              czy piła działa. Dodajemy kategorie: <b>Hybryda</b></p>
+          </div>
+        </section>
+      </section>
+      <!--Koszt i czas realizacji usługi-->
+      <section class="task" id="uslugi_koszt-i-czas-realizacji-uslugi">
+        <div class="task__header">
+          <h2>
+            Usługi - Koszt i czas realizacji usługi
+          </h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Usługi</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Usługi</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Koszt i czas realizacji usług</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Podajemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Opis:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Poniżej są linki do posiadanych informacji odnośnie cen, oraz czasu realizacji poszczególnych usług, w
+              przypadku gdy nie posiadamy informacji a pytanie tyczy się obsługiwanego przez nas sklepu dzwonimy w
+              imieniu Klienta do sklepu dodając kategorie <b>Hybryda</b>, w przypadku pozostałych sklepów zachęcamy do
+              kontaktu bezpośredniego i podajmy numer do sklepu.</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Cenniki, i spis usług wraz z czasem realizacji:</h3>
+          </div>
+          <div class="task__description-more">
+            <a style="color: red" target="_blank"
+              href="https://intelevospzoo.sharepoint.com/:x:/r/sites/CastoramaCommunicationCenter/Shared%20Documents/General/Piloty_Wroc%C5%82aw_Warszawa/Pilot%20Warszawa%20-%20Us%C5%82ugi_aktualizacja24.10.xlsx?d=w7d15b8538b204b69b9381d8109b33b4c&csf=1&web=1&e=XCA7Ba">Usługi
+              Warszawa</a> <span>/</span>
+            <a style="color: red" target="_blank"
+              href="https://intelevospzoo.sharepoint.com/:x:/r/sites/CastoramaCommunicationCenter/Shared%20Documents/General/Piloty_Wroc%C5%82aw_Warszawa/zestawienia_do%20uzupe%C5%82nienia%20sklepy_ca%C5%82o%C5%9B%C4%87%201.xlsx?d=w717b6aa3d15b4377a2dbff687b3063de&csf=1&web=1&e=hzYYLu">Usługi
+              Wrocław</a>
+          </div>
+        </section>
+      </section>
+      <!--Projektowanie łazienki-->
+      <section class="task" id="uslugi_ciecie-drewna">
+        <div class="task__header">
+          <h2>
+            Usługi - Umówienie wizyty projektowania łazienki
+          </h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Usługi</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Usługi</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Projektowanie</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Podajemy</td>
+                </tr>
+                <tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Opis usługi:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Wszystkie zakupione w naszym sklepie drewniane elementy, możesz dociąć do potrzebnych Ci rozmiarów.
+              Nasi specjaliści przytną materiał zgodnie z Twoimi wskazówkami, dzięki czemu nie będziesz musiał
+              wykonywać tego żmudnego zadania samodzielnie. W rezultacie będziesz mógł wykorzystać drewno w aranżacji
+              swojego mieszkania i zamontować je w docelowym miejscu. Oferowana usługa obejmuje docinanie nie tylko
+              elementów drewnianych, ale też drewnopochodnych np.: płyt HDF, MDF, OSB, płyt pilśniowych, laminowanych,
+              meblowych, blatów kuchennych czy płyt wiórowych.</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Obsługa Klienta:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Z ze względu na to, że usługa cięcia w niektórych sklepach, może być wyłączona a sklepom ciężko jest na
+              bieżąco komunikować z CC nie działanie tej usługi. Należy skontaktować się ze sklepem (<b>Obsługiwanych
+                przez infolinie, inne sklepy podajemy numer na dział drewna</b>) i doprecyzować,
+              czy piła działa. Dodajemy kategorie: <b>Hybryda</b></p>
+          </div>
+        </section>
+      </section>
+      <!---->
+      <section class="task" id="przygoyowanie-mebli-atomia">
+        <div class="task__header">
+          <h2>W ile są przygotowywane meble atomia</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kodowanie</h3>
+          </div>
+          <div class="task__description-more">
+            <p>Kategoria główna: Usługi</p>
+            <p>Kategoria szczegółowa: Projektowanie</p>
+          </div>
+          <div class="task__description-header">
+            <h3>Jaki jest czas realizacji?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>OD 5 dni w górę</p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!--Zakupy Stacjonarne-->
+    <section class="category-section" id="zakupy-stacjonarne">
+      <h1>Zakupy Stacjonarne</h1>
+
+      <!--Dodanie produktu do zamówienia-->
+      <section class="task" id="zakupy_stacjonarne-dodanie-produktu-do-zamowienia">
+        <div class="task__header">
+          <h2>Zakupy Stacjonarne - Dodanie produktu do zamówienia</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zakupy Stacjonarne</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zakupy Stacjonarne</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+                <tr>
+                  <td>Numer zamówienia:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Proces rozmowy:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Dodanie elementu do zamówienia- <b>nie ma możliwości dodania elementu</b>, CC powinno zaproponować
+              Klientowi
+              złożenie zamówienia online (C&C), dobrą praktyką będzie przejścia procesu z Klientem. CC może również
+              zaproponować złożenie zamówienia telefonicznie, jeśli będzie ono z transportem sklepowym lub kurierem
+              (dodatkowo płatne). Jeżeli Klient nie będzie chciał zdecydować się na ścieżkę zamówienia online lub
+              zamówienia telefonicznego, należy przekazać Klientowi informację, że w tym przypadku trzeba udać się z
+              wizytą do sklepu. Jeśli Klient zdecyduje się na zamówienie online (C&C) oraz chęć dołożenia do pierwotnego
+              zamówienia brakującego element, CC musi pobrać od Klienta numer zamówienia Commerce oraz numer zamówienia
+              online I te informacje przekazać do logistyki sklepu.
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Ścieżka rozmowy:</h3>
+          </div>
+          <div class="task__description-more">
+            <ol>
+              <li>
+                <ul>
+                  <li>Konsultant informuję, że nie mia możliwości dodawania elementu do pierwotnego zamówienia.
+                    Proponuję:</li>
+                  <li>Anulowanie całego zamówienia i złożenie nowego w sklepie. Konsultant informuję że w przypadku tej
+                    ścieżki, zwrot środków nastąpi w ciągu 14 dni, a termin realizacji zamówienia może ulec zmianie.
+                  </li>
+                  <li>
+                    Złożenia zamówienia na dodatkowy element z dostawą telefonicznie lub online. Konsultant proponuje
+                    przejście z nim procesu</li>
+                </ul>
+              </li>
+              <li> Konsultant kontaktuję się z logistyką przekazując status (<b>anulowanie(należy poinformować również
+                  kasy o zwrocie środków), lub nowe zamówienie Klienta - w drugim przypadku należy przekazać logistyce
+                  numer pierwotnego zamówienia</b>) i zamyka sprawę. Jeśli Klient, zdecyduję się na dodanie elementu
+                przy
+                pomocy zamówienia C&C, konsultant powinien pobrać niezbędne dane i przekazać je do logistyki sklepu.
+              </li>
+            </ol>
+          </div>
+        </section>
+      </section>
+      <!--Status zamówienia-->
+      <section class="task" id="zakupy_stacjonarne-status-zamowienia">
+        <div class="task__header">
+          <h2>Zakupy Stacjonarne - Status zamówienia</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zakupy Stacjonarne</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zakupy Stacjonarne</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Status zamówienia</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+                <tr>
+                  <td>Numer zamówienia:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Proces rozmowy:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Pobieramy numer zamówienia, gdy numer zamówienia zaczyna się od
+              0 to oznacza zamówienie sklepowe, dopytujemy którego sklepu
+              dotyczy zamówienie. Sprawdzamy w AZT2. Sklepy pilotowe zobowiązały się do zapisywania dokładnych
+              informacji, z których CC będzie mogło korzystać bez kontaktu ze sklepem. Jeśli mimo to, nie uda się
+              udzielić odpowiedzi na pytanie Klienta należy skontaktować się ze sklepem telefonicznie lub mailowo
+              (mailowo tylko pod jeden wybrany adres mailowy) pod wskazanym w kategoryzacji numerem lub mailem.
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!--Zamówienia internetowe-->
+    <section class="category-section" id="zamowienia-internetowe">
+      <h1>Zamówienia internetowe</h1>
+      <!--Anulowanie zamówienia-->
+      <section class="task" id="zamowienie_internetowe_anulowanie-zamowienia-proces-sklepu">
+
+        <div class="task__header">
+          <h2>
+            Zamówienie internetowe - Anulowanie zamówienia ( proces sklepu )
+          </h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zamówienie internetowe</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zamówienie internetowe + <b>Hybryda</b></td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Anulowanie zamówienia ( proces sklepu )</td>
+                </tr>
+                <tr>
+                  <td>Priorytet:</td>
+                  <td>Wysoki</td>
+                </tr>
+                <tr>
+                  <td>Osoby odpowiedzialne e-mail:</td>
+                  <td><a target="_blank"
+                      href="https://intelevospzoo.sharepoint.com/:x:/r/sites/CastoramaCommunicationCenter/_layouts/15/Doc.aspx?sourcedoc=%7BEC54F71B-2189-49E3-977B-82E03FBE1048%7D&file=Kontakt_Warszawa_Pilot_aktualizacja24.10.xlsx&action=default&mobileredirect=true"
+                      style="color: red">Warszawa (kliknij!)</a> /
+                    <a target="_blank"
+                      href="https://intelevospzoo.sharepoint.com/:x:/r/sites/CastoramaCommunicationCenter/_layouts/15/Doc.aspx?sourcedoc=%7B08DC2CFA-5241-425A-891C-E2423B4F881B%7D&file=Kontakt%20ze%20sklepem-%20z%20kim%20si%C4%99%20kontaktowa%C4%87-%20Wroc%C5%82aw..xlsx&action=default&mobileredirect=true"
+                      style="color: red">Wrocław (kliknij!)</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Numer Zamówienia:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+                <tr>
+                  <td>Imię i nazwisko Klienta:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Co robimy w trakcie rozmowy z klientem?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Pobieramy numer zamówinia, oraz pytamy na kogo zamówienie zostało złożone. Informujemy również że po
+              anulowaniu zamówienia zwrot środków następuję do 14 dni.
+              <b>Prośbę o anulowanie zamówienia internetowego wysyłamy wyłączenie mailowo na SOK (wskazany w pliku
+                adres mailowy), w tym przypadku nie dzwonimy do sklepu.</b>
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Przykład wiadomości do sklepu:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              @<b style="color: red">adresEmailDoSklepu</b> - Dzień dobry,na podstawie kontaktu klienta drogą
+              telefoniczą proszę o anulowanie zamówienia numer: , pozdrawiam.
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <!--Status zamówienia-->
+      <section class="task" id="zamowienie_internetowe_status-zamowienia">
+        <div class="task__header">
+          <h2>Zamówienie internetowe - Status zamówienia</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zamówienie internetowe</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zamówienie internetowe</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Status zamówienia</td>
+                </tr>
+                <tr>
+                  <td>Sklep:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+                <tr>
+                  <td>Numer zamówienia:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+                <tr>
+                  <td>Imię i nazwisko Klienta:</td>
+                  <td>Wpisujemy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Proces rozmowy:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Pobieramy numer zamówienia ( w przypadku numeru zamówienia
+              zaczynającego się od 0 to zamówienie sklepowe), imię i nazwisko
+              osoby na którą złożono zamówienie, sprawdzamy w Magento, lub DTS (zamówienia z magazynu centralnego w tym
+              Kuchnie i Meble Atomia )</p>
+          </div>
+        </section>
+      </section>
+      <!--Zamów i odbierz-->
+      <section class="task" id="zamowienie_internetowe_zamow_i_odbierz">
+        <div class="task__header">
+          <h2>
+            Zamówienie internetowe - Zamów i odbierz ( Click & Collect )
+          </h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zamówienie internetowe</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zamówienie internetowe</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Zamów i odbierz</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Czym jest Zamów i odbierz?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Możliwością zamówienia produktu z odbiorem osobistym w sklepie.
+            </p>
+          </div>
+        </section>
+      </section>
+      <section class="task" id="zamowienie_internetowe_zgloszenie_techniczne">
+        <div class="task__header">
+          <h2>
+            Zamówienie internetowe - Zgłoszenie techniczne
+          </h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zamówienie internetowe</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zamówienie internetowe</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Trudności w zamówieniu/procesie</td>
+                </tr>
+                <tr>
+                  <td>Priorytet:</td>
+                  <td>Niski</td>
+                </tr>
+                <tr>
+                  <td>Osoba odpowiedzialna e-mail:</td>
+                  <td>mariusz.gurtowski@castorama.pl</td>
+                </tr>
+                <tr>
+                  <td>Dane Klienta e-mail:</td>
+                  <td>Pobieramy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Obsługa:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Pobieramy: adres e-mail, dodajemy osobę odpowiedzialną: mariusz.gurtowski@castorama.pl, opisuemy sprawę.
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!--Zamówienia telefoniczne-->
+    <section class="category-section" id="zamowienia-telefoniczne">
+      <h1>Zamówienia telefoniczne</h1>
+      <section class="task" id="zamowienia_telefoniczne-inne">
+        <div class="task__header">
+          <h2>Zamówienie internetowe - Inne</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zamówienia telefoniczne</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zamówienia telefoniczne</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Inne</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Informacje ogólne:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Nie ma możliwości składania zamówień telefonicznych na produkty
+              z gamy kuchni i Atomii (w tym przypadku konieczne jest zaznaczenie przez sklep ZS). Dodatkowo nie można
+              składać zamówień na: produkty, które można kupić tylko i wyłącznie w sklepie np. opał. Jeśli Klient
+              zainteresowany jest wcześniej wymienionymi produktami konsultant powinien poprosić go o wizytę w
+              sklepie. <b>Zamówienia można składać jedynie w sklepach pilotowych oraz sklepach SMART.</b>
+            </p>
+          </div>
+        </section>
+      </section>
+      <section class="task" id="zamowienia_telefoniczne-zlozenie-zamowienia">
+        <div class="task__header">
+          <h2>Zamówienia telefoniczne - Złożenie zamówienia</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zamówienia telefoniczne</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zamówienia telefoniczne</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Złożenie zamówienia</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Link do składania zamówień telefonicznych:</h3>
+          </div>
+          <div class="task__description-more">
+            <a target="_blank" href="https://admin.castorama.pl/phone-order-panel//" style="color: red">LINK</a>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="category-section" id="zobowiazania">
+      <h1>Zobowiązania</h1>
+      <section class="task" id="zobowiazania_duplikat-faktury">
+        <div class="task__header">
+          <h2>Duplikat Faktury</h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zobowiazania</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zobowiazania</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Faktury/Dokumenty sprzedaży</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Faktury/Dokumenty sprzedaży</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Task:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              <b>oznaczamy seniora w celu wysłania do klienta wiadomości z
+                załącznikiem, treść wiadomości:</b>
+            </p>
+            <p>
+              Dzień dobry,W celu otrzymania faktury, proszę uprzejmie o
+              wypełnienie załączonego dokumentu, dostępnymi
+              informacjami.Pozdrawiamy serdecznie i życzymy miłego dnia.
+              <b>+dodajemy plik z <a style="color: red" href="../assets/todownload/duplikatfaktury.docx"
+                  download="duplikatfaktury.docx">oświadczenie (kliknij by pobrać!)</a></b>
+            </p>
+          </div>
+          <div class="task__description-header">
+            <h3>Po otrzymaniu załączonego oświadczenia:</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              <b>oznaczamy kasy po mailu jako osoby odpowiedzialne:</b>
+            </p>
+            <p>
+              Dzień dobry, proszę o wystawienie duplikatu faktury na podstawie
+              oświadczenia zamieszczonego jako załącznik. Pozdrawiam
+              <b>+dodajemy wypełnione oświadczenie</b>
+            </p>
+          </div>
+        </section>
+      </section>
+      <!--Faktura proforma-->
+      <section class="task" id="zobowiazania_faktura-proforma">
+        <div class="task__header">
+          <h2>
+            Zobowiązania - Faktura Proforma (z opóźnionym terminiem płatności)
+          </h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zobowiazania</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zobowiazania</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Faktury/Dokumenty sprzedaży</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Czy jest faktura proforma?</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Faktura proforma stosowana jest w obrocie gospodarczym jako oferta handlowa lub dokument określający kwotę
+              do zapłaty za przyszłą usługę, lub dostawę towaru. Może także stanowić formę wezwania do zapłaty lub
+              dokument informujący o kwocie wymaganej od kontrahenta zaliczki od przyszłej dostawy towaru.
+            </p>
+          </div>
+        </section>
+      </section>
+      <!--Dokumenty inne-->
+      <section class="task" id="zobowiazania_faktury-paragony">
+        <div class="task__header">
+          <h2>
+            Zobowiązania - Faktury/Paragony
+          </h2>
+        </div>
+        <section class="task__description">
+          <div class="task__description-header">
+            <h3>Kategoryzacja:</h3>
+          </div>
+          <div class="task-assignment task__description-more">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Temat Główny:</td>
+                  <td>Zobowiazania</td>
+                </tr>
+                <tr>
+                  <td>Kategoria:</td>
+                  <td>Zobowiazania</td>
+                </tr>
+                <tr>
+                  <td>Kategoria szczegółowa:</td>
+                  <td>Faktury/Dokumenty sprzedaży</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="task__description-header">
+            <h3>Klient nie ma możliwości udania się do sklepu w celu pozyskania faktury na podstawie paragonu z NIPEM
+              (powyżej 450zł)</h3>
+          </div>
+          <div class="task__description-more">
+            <p>
+              Klient ma przesłąć listownie paragon z NIPEM, w raz z listem w którym opisuję czego oczekuję (Proszę o
+              wystawienie faktury na podstawie paragonu z NIPEM) na adres sklepu.
+            </p>
+          </div>
+        </section>
+      </section>
+      <!--Zwroty towaru-->
+    </section>
+    <section class="task" id="zobowiazania_zwroty-towaru">
+      <div class="task__header">
+        <h2>Zwroty towaru</h2>
+      </div>
+      <section class="task__description">
+        <div class="task__description-header">
+          <h3>Kategoryzacja:</h3>
+        </div>
+        <div class="task-assignment task__description-more">
+          <table>
+            <tbody>
+              <tr>
+                <td>Temat Główny:</td>
+                <td>Zobowiazania</td>
+              </tr>
+              <tr>
+                <td>Kategoria:</td>
+                <td>Zobowiazania</td>
+              </tr>
+              <tr>
+                <td>Kategoria szczegółowa:</td>
+                <td>Zwroty towaru</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="task__description-header">
+          <h3>Co można zwrócić i do kiedy?</h3>
+        </div>
+        <div class="task__description-more">
+          <p>
+            Zwroty towarów pełnowartościowych są w Castorama przyjmowane bez
+            względu na datę zakupu, jednak nie wszystkie towary podlegają
+            zwrotom (towary wykonane na zamówienie, towary po terminie
+            ważności, noszące ślady użytkowania, rośliny.) Ostateczną
+            decyzję zawsze podejmuje pracownik sklepu.
+          </p>
+        </div>
+        <div class="task__description-header">
+          <h3>Gdzie można dokonać zwrotu?</h3>
+        </div>
+        <div class="task__description-more">
+          <p>
+            Zwrot może zostać zrealizowany w dowolnym sklepie Castorama, nie
+            tylko w tym, w którym dokonano zakupu.
+          </p>
+        </div>
+        <div class="task__description-header">
+          <h3>Co jest wymagane do dokonania zwrotu?</h3>
+        </div>
+        <div class="task__description-more">
+          <p>
+            Poza wyjątkowymi przypadkami, paragon jest niezbędny. Zachęcam
+            jednak do kontaktu ze sklepem, w którym dokonano zakupu, który
+            postara się zrealizować zwrot na podstawie innego dokumentu (np.
+            dzięki wyciągowi z karty płatniczej).
+          </p>
+        </div>
+        <div class="task__description-header">
+          <h3>W jakiej formie klient otrzymuje zwrot środków za zakup?</h3>
+        </div>
+        <div class="task__description-more">
+          <p>
+            W takiej samej formie w jakiej dokonał płatności, jednak w
+            przypadku płatności kartą istnieje możliwość uzyskania zwrotu w
+            gotówce, jednak decyzję w tym przypadku podejmuje pracownik
+            sklepu. Celem weryfikacji należy kontaktować się ze sklepem, w
+            którym dokonano zakupu. Czy podać numer telefonu? (uwaga: nie
+            podajemy numerów do sklepów Smart oraz Wrocławskich)
+          </p>
+        </div>
+      </section>
+    </section>
+  </main>
+  <script src="./procedures.js"></script>
+</body>
+
+</html>
