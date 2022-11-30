@@ -35,8 +35,7 @@ const checkSectionSectors = () => {
   console.log(enteredSku);
   const firstNumAtEnteredSku = parseInt(enteredSku.charAt(0));
 
-  if (enteredSku.length == 6) {
-    let messageForSku;
+  if (enteredSku.length == 5 || enteredSku.length == 6) {
     console.log(firstNumAtEnteredSku);
     switch (firstNumAtEnteredSku) {
       case 1:

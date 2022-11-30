@@ -3,7 +3,12 @@
   --red: #d71921;
   --light_blue: #0078d7;
   --dark_blue: #006abe;
+  --green: #4caf50;
   --white: #ffffff;
+}
+
+body {
+background: url("../assets/images/background.png");
 }
 
 .sku-checker-container {
@@ -14,6 +19,8 @@
   margin: 0 auto;
   border: 4px solid var(--dark_blue);
   border-radius: 16px;
+  background-color: var(--white);
+  box-shadow: 8px 10px 24px -6px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
 
@@ -21,7 +28,7 @@
   width: 100%;
   padding: 16px 0;
   background: var(--light_blue);
-  color: #ffdd00;
+  color: var(--gold);
   text-align: center;
 
 }
@@ -34,12 +41,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 16px;
 }
 
 .sku-checker-output-panel {
   width: 280px;
   margin: 8px;
-  border: 1px solid var(--dark_blue);
+  border: 2px solid var(--dark_blue);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -48,7 +56,7 @@
   width: 100%;
   padding: 2px 0;
   background: var(--light_blue);
-  color: #ffdd00;
+  color: var(--gold);
   text-align: center;
 }
 
@@ -64,7 +72,6 @@
 .sku-checker-output-panel-content span em {
   color: var(--dark_blue);
 }
-
 
 .inp {
   display: block;
@@ -155,13 +162,15 @@
 }
 
 #btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 280px;
   height: 50px;
   margin: 8px;
-  padding: 16px 8px;
-  background-color: #4caf50;
+  border: 3px solid var(--green);
   border-radius: 8px;
-  color: var(--white);
+  color: var(--green);
   font-weight: 700;
   text-align: center;
   cursor: pointer;
@@ -169,8 +178,8 @@
 
 #btn-submit:hover,
 #btn-submit:active {
-  color: gold;
-  font-size: 1.2rem;
+  background-color: var(--green);
+  color: var(--gold);
 }
 
 #list-info {
