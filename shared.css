@@ -46,3 +46,59 @@ h2 {
 .color-red {
   color: var(--red);
 }
+
+/*TOOLTIP*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* report error btn */
+.report-error {
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  border: 2px solid var(--red);
+  border-radius: 20px;
+  box-shadow: 8px 10px 24px -6px rgba(0, 0, 0, 0.5);
+  background: var(--red);
+  color: var(--white);
+  font-weight: 500;
+}
